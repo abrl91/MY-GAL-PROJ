@@ -1,0 +1,54 @@
+.dark_screen{
+    position: fixed;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 999;
+    
+    /*display: flex;*/
+    display: none;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+.dark_screen #arrow_left{
+    position: absolute;
+/*    top:20%;*/
+    left:4%;
+    cursor: pointer;
+}
+
+.dark_screen #arrow_right{
+    position: absolute;
+/*    top:20%;*/
+    right:4%;
+    cursor: pointer;
+}
+
+.dark_screen .dark_box{
+    width:100%;
+    max-width: 400px;
+    background-color: black;
+    min-height: 200px;
+    border:black solid 20px;
+    position: relative;
+/*    box-sizing: content-box;*/
+    
+}
+
+.dark_screen .dark_box #x_btn{
+    color:white;
+    text-align: right;
+    position: absolute;
+    top:-52px;
+    right:3px;
+    font-size: 2em;
+    cursor: pointer;
+    
+}
+
+.dark_screen .dark_box img{
+    width:100%;
+}
+
